@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" verbose="1" parallel="methods" thread-count="1">
+    <test name="PC">
+ 		<parameter name="DataSheetName" value="Data"/>
+ 		<parameter name="Region" value=""/> 
+		<classes>
+			<class name="com.pc.driver.Driver" />
+		</classes>
+	</test>
+</suite>

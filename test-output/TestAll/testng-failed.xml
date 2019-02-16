@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestAll]" parallel="methods">
+  <parameter name="DataSheetName" value="Data"/>
+  <parameter name="Region" value=""/>
+  <test name="PC(failed)" parallel="methods">
+    <parameter name="DataSheetName" value="Data"/>
+    <parameter name="Region" value=""/>
+    <classes>
+      <class name="com.pc.driver.Driver">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="exitConfig"/>
+          <include name="Parllel1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.pc.driver.Driver -->
+    </classes>
+  </test> <!-- PC(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

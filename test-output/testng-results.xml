@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="6545" started-at="2018-04-05T03:45:21Z" finished-at="2018-04-05T03:45:27Z">
+    <groups>
+    </groups>
+    <test name="PC" duration-ms="6545" started-at="2018-04-05T03:45:21Z" finished-at="2018-04-05T03:45:27Z">
+      <class name="com.pc.driver.ParallelExecDriver">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.pc.driver.ParallelExecDriver@63d4e2ba]" name="loadConfig" is-config="true" duration-ms="844" started-at="2018-04-04T23:45:20Z" finished-at="2018-04-04T23:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="Parllel1(java.lang.String, java.lang.String)[pri:1, instance:com.pc.driver.ParallelExecDriver@63d4e2ba]" name="Parllel1" duration-ms="6530" started-at="2018-04-04T23:45:21Z" finished-at="2018-04-04T23:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parllel1 -->
+        <test-method status="PASS" signature="exitConfig()[pri:0, instance:com.pc.driver.ParallelExecDriver@63d4e2ba]" name="exitConfig" is-config="true" duration-ms="8" started-at="2018-04-04T23:45:27Z" finished-at="2018-04-04T23:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitConfig -->
+      </class> <!-- com.pc.driver.ParallelExecDriver -->
+    </test> <!-- PC -->
+  </suite> <!-- TestAll -->
+</testng-results>
